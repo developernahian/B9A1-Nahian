@@ -217,7 +217,7 @@ main {
     background: #F00;
 }
 
-.address .btn-two:hover{
+.address .btn-two:hover {
     cursor: pointer;
     opacity: 0.7;
 }
@@ -345,8 +345,6 @@ main {
 
 .second {
     margin-top: 48px;
-
-
 }
 
 .second img {
@@ -459,7 +457,7 @@ main {
     border-radius: 50px 0 0 50px;
     background-color: #FFF;
     border: 0;
-    text-align: left!important;
+    text-align: left !important;
     width: 70%;
     height: 100%;
 
@@ -479,10 +477,12 @@ main {
 
 
 }
-#newsletter .btn-email-subscribe{
+
+#newsletter .btn-email-subscribe {
     width: 50%;
     margin: auto;
 }
+
 #newsletter .btn-subscribe {
 
     border-radius: 0px 50px 50px 0px;
@@ -500,7 +500,7 @@ main {
     font-weight: 600;
 }
 
-.btn-subscribe:hover{
+.btn-subscribe:hover {
     opacity: 0.7;
     cursor: pointer;
 }
@@ -508,14 +508,18 @@ main {
 
 /* ! Footer section start **************** */
 
-.footer-container{
+.footer-container {
     background: #070211;
+    height: 500px;
     color: #FFF;
     /* font-family: Inter; */
     /* text-align: center; */
 }
 
-.footer-p-one{
+.footer-p-one {
+    /* margin-top: 1px; */
+    padding-top: 0;
+    /* background-color: red; */
     display: flex;
     justify-content: space-evenly;
     padding-top: 120px;
@@ -523,38 +527,74 @@ main {
     padding-bottom: 50px;
 
 }
-.right{
+
+.left {
+    /* background-color: green; */
+}
+
+.right {
+
+    /* background-color: green; */
+    width: 600px;
+    height: 25px;
     display: flex;
-    flex-direction: column;
+    gap: 30px;
+    /* flex-direction: column; */
+}
+
+.icon {
+    background-size: 1px;
+    margin: 0;
 }
 
 /* *************************** */
 
-.footer-p-two{
+.footer-p-two {
 
     text-align: center;
 
 }
 
-.footer-p-two a:hover{
+.footer-p-two a:hover {
     opacity: 0.3;
 }
-hr{
+
+hr {
     width: 75%;
-height: 1px solid rgba(255, 255, 255, 0.15);
-margin-top: 50px;
-margin-bottom: 50px;
+    height: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 30px auto;
 }
 
 
 /* *************************** */
-.footer-p-three{
+.footer-p-three {
+
     display: flex;
     justify-content: space-around;
+    margin-bottom: 120px;
 }
 
-.footer-p-three p{
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+.footer-p-three p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-p-three button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 0px solid #F00;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.footer-p-three button:hover{
+    background: #F00;
 }

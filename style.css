@@ -121,6 +121,16 @@ main {
     font-weight: 400;
 }
 
+.welcome-logo{
+    width: 30vw;
+/* height: 464.662px; */
+}
+.welcome img{
+    /* background-color: green; */
+    width: 100%;
+    height: 100%;
+}
+
 .join-btn {
     margin-top: 48px;
     background-color: transparent;

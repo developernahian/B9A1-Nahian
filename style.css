@@ -17,8 +17,6 @@ header {
     margin: 50px auto;
     background-image: url(assets/Banner.png);
     background-size: 100% 100%;
-
-
 }
 
 
@@ -26,8 +24,6 @@ header {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-repeat: no-repeat;
-
-
 }
 
 header h4 {
@@ -36,7 +32,6 @@ header h4 {
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-
 }
 
 header h2 {
@@ -56,18 +51,10 @@ header h2 {
 main {
     width: 80%;
     margin: 120px auto;
-    /* display: flex;
-    justify-content: center; */
-    /* align-items: center; why not working */
 }
 
 .off {
-    /* display: flex; */
     text-align: center;
-    /* justify-content: center; */
-    /* color: green; */
-    /* background-color: yellowgreen; */
-
 }
 
 
@@ -100,22 +87,17 @@ main {
 .new-year-photo {
     margin: auto;
     margin-top: 48px;
-    width: 100%;
-    /* height: 500px; */
-
+    width: 65%;
 }
 
 /* ! Welcome section Start *************** */
 
 .welcome {
-    /* width: 1320px; */
     margin: 120px auto;
-    /* background-color: yellow; */
     display: flex;
     gap: 150px;
     padding: 126px;
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(assets/Vectorrr.png);
-    /* background-image: url(/assets/Vectorrr.png); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -124,8 +106,6 @@ main {
 .welcome h3 {
     color: #FFF;
     width: 624px;
-
-
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
@@ -144,17 +124,13 @@ main {
 .join-btn {
     margin-top: 48px;
     background-color: transparent;
-
-
     color: #FFF;
     width: 140px;
     height: 40px;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-
     text-transform: uppercase;
     border: 2px solid white;
     border-radius: 7px;
@@ -162,7 +138,6 @@ main {
 
 .join-btn:hover {
     color: #f19100cc;
-
 }
 
 /* ! Address section ******************* */
@@ -170,7 +145,6 @@ main {
 .address {
     border-radius: 18px;
     font-family: Inter;
-    /* background-color: green; */
     width: 100%;
     height: 442px;
     text-align: center;
@@ -185,10 +159,8 @@ main {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
-
     font-weight: 600;
     line-height: 56px;
-
 }
 
 .address p span {
@@ -200,20 +172,15 @@ main {
     padding-top: 100px;
 }
 
-
 .address .btn-two {
     margin-top: 64px;
     width: 167px;
     height: 56px;
     border: 0;
-
     color: #FFF;
-    color: #FFF;
-
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-
     border-radius: 8px;
     background: #F00;
 }
@@ -225,40 +192,31 @@ main {
 
 /* ! coming container *********** */
 .coming {
-
     margin: 120px auto;
     width: 100%;
     height: 370px;
-    /* background-color: aqua; */
     display: flex;
     gap: 15px;
-
     justify-content: space-around;
-    /* margin-bottom: 0; */
 }
 
 .offer {
-    /* background-color: gray; */
     margin-top: 40px;
     width: 393px;
 }
 
 .offer h6 {
-    /* background-color: gray; */
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-
 }
 
 .offer h3 {
     padding: 16px 0;
     color: #070211;
-    /* font-family: Merriweather; */
     font-size: 48px;
     font-weight: 900;
-
 }
 
 .offer p {
@@ -275,37 +233,27 @@ main {
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    /* flex-shrink: 0; */
-
 }
-
-
 
 
 .third {
     margin-top: 40px;
-
 }
 
 .third h2 {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-
     font-weight: 700;
-
 }
 
 .third p {
     margin-top: 16px;
     width: 276px;
     color: rgba(7, 2, 17, 0.60);
-
     font-family: Inter;
     font-size: 20px;
-
     font-weight: 400;
-
 }
 
 .third img {
@@ -315,7 +263,6 @@ main {
 /* ! portfolio section ******************** */
 
 .portfolio {
-    /* background-color: green; */
     width: 100%;
     margin: 0 auto;
 }
@@ -340,7 +287,6 @@ main {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-
     font-weight: 400;
 }
 
@@ -356,7 +302,6 @@ main {
     display: flex;
     max-width: 100vw;
     gap: 20px;
-
 }
 
 .second .sunglass {
@@ -379,8 +324,6 @@ main {
     background: rgba(255, 0, 0, 0.05);
     align-items: center;
     text-align: center;
-
-
     margin: 120px auto;
 }
 
@@ -396,29 +339,17 @@ main {
     font-weight: 900;
 }
 
-/* #newsletter p{
-    display: block;
-    background-color: green;
-} */
 
 #newsletter p {
     margin-top: 22px;
     width: 896px;
-    /* width: 10px; */
-
-
-
-    /* text-align: center; */
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-
 }
 
 #newsletter p {
-
     width: 896px;
-    /* background-color: green; */
     margin: 22px auto;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -427,36 +358,16 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #newsletter .btn-email-subscribe {
-    /* background-color: green; */
     margin-top: 48px;
     border-radius: 50px;
     width: 648px;
     height: 68px;
     align-items: center;
-
 }
 
 
-
-
 #newsletter .btn-email {
-    /* margin-bottom: 24px;
-    padding: 18px 35px;
-    color: #757575; */
-
     border-radius: 50px 0 0 50px;
     background-color: #FFF;
     border: 0;
@@ -464,21 +375,11 @@ main {
     width: 70%;
     height: 100%;
     padding-left: 10px;
-
-
-
-
-
     color: rgba(7, 2, 17, 0.30);
-
     text-align: center;
     font-family: Inter;
     font-size: 18px;
-
     font-weight: 400;
-
-
-
 }
 
 #newsletter .btn-email-subscribe {
@@ -487,15 +388,11 @@ main {
 }
 
 #newsletter .btn-subscribe {
-
     border-radius: 0px 50px 50px 0px;
     background: #F00;
-
-
     border: 0;
     width: 29%;
     height: 100%;
-
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -508,54 +405,58 @@ main {
     cursor: pointer;
 }
 
-
 /* ! Footer section start **************** */
 
 .footer-container {
     background: #070211;
     height: 500px;
     color: #FFF;
-    /* font-family: Inter; */
-    /* text-align: center; */
 }
 
 .footer-p-one {
-    /* margin-top: 1px; */
     padding-top: 0;
-    /* background-color: red; */
     display: flex;
     justify-content: space-evenly;
     padding-top: 120px;
     margin: 0;
     padding-bottom: 50px;
-
 }
 
-.left {
-    /* background-color: green; */
+
+.footer-p-one .left p {
+
+    line-height: 38px;
 }
+
 
 .right {
 
-    /* background-color: green; */
-    width: 600px;
-    height: 25px;
     display: flex;
-    gap: 30px;
-    /* flex-direction: column; */
+    flex-direction: column;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.call,
+.web {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .icon {
     background-size: 1px;
-    margin: 0;
+}
+
+.pading {
+    margin-left: 10px;
 }
 
 /* *************************** */
 
 .footer-p-two {
-
     text-align: center;
-
 }
 
 .footer-p-two a:hover {
@@ -570,38 +471,32 @@ hr {
     margin: 30px auto;
 }
 
-
 /* *************************** */
 .footer-p-three {
-
     display: flex;
     justify-content: space-around;
     margin-bottom: 120px;
 }
 
+
 .footer-p-three p {
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .footer-p-three button {
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     background-color: transparent;
     border: 0px solid #F00;
     border-radius: 10px;
     height: 40px;
     cursor: pointer;
-
 }
 
-.footer-p-three button:hover{
+.footer-p-three button:hover {
     background: #F00;
 }
-
-
-
-/* ! bonus section ************************** */

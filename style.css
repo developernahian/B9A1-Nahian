@@ -2,7 +2,7 @@
 
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     font-family: 'Merriweather', serif;
 }
 
@@ -12,7 +12,7 @@ img {
 
 header {
     border: 15px;
-    width: 1620px;
+    width: 100%;
     height: 600px;
     margin: 50px auto;
     background-image: url(assets/Banner.png);
@@ -54,7 +54,8 @@ header h2 {
 
 /* ! 65 OFF section ****************  */
 main {
-    margin-top: 120px;
+    width: 80%;
+    margin: 120px auto;
     /* display: flex;
     justify-content: center; */
     /* align-items: center; why not working */
@@ -99,15 +100,15 @@ main {
 .new-year-photo {
     margin: auto;
     margin-top: 48px;
-    width: 802.9px;
-    height: 500px;
+    width: 100%;
+    /* height: 500px; */
 
 }
 
 /* ! Welcome section Start *************** */
 
 .welcome {
-    width: 1320px;
+    /* width: 1320px; */
     margin: 120px auto;
     /* background-color: yellow; */
     display: flex;
@@ -170,7 +171,7 @@ main {
     border-radius: 18px;
     font-family: Inter;
     /* background-color: green; */
-    width: 1580px;
+    width: 100%;
     height: 442px;
     text-align: center;
     margin: 120px auto;
@@ -226,7 +227,7 @@ main {
 .coming {
 
     margin: 120px auto;
-    width: 1600px;
+    width: 100%;
     height: 370px;
     /* background-color: aqua; */
     display: flex;
@@ -315,7 +316,7 @@ main {
 
 .portfolio {
     /* background-color: green; */
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -348,11 +349,12 @@ main {
 }
 
 .second img {
-    width: 550px;
+    width: 100%;
 }
 
 .second .bag {
     display: flex;
+    max-width: 100vw;
     gap: 20px;
 
 }
@@ -360,6 +362,7 @@ main {
 .second .sunglass {
     margin-top: 18px;
     display: flex;
+    max-width: 100vw;
     gap: 20px;
 }
 
@@ -369,7 +372,7 @@ main {
 }
 
 #newsletter {
-    width: 1600px;
+    width: 100%;
     height: 616px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -460,7 +463,7 @@ main {
     text-align: left !important;
     width: 70%;
     height: 100%;
-
+    padding-left: 10px;
 
 
 
@@ -598,3 +601,7 @@ hr {
 .footer-p-three button:hover{
     background: #F00;
 }
+
+
+
+/* ! bonus section ************************** */

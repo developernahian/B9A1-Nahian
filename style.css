@@ -95,8 +95,8 @@ main {
 .welcome {
     margin: 120px auto;
     display: flex;
-    gap: 150px;
-    padding: 126px;
+    gap: 50px;
+    padding:120px;
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(assets/Vectorrr.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -122,11 +122,11 @@ main {
 }
 
 .welcome-logo{
-    width: 30vw;
+    width: 20vw;
 /* height: 464.662px; */
 }
 .welcome img{
-    /* background-color: green; */
+
     width: 100%;
     height: 100%;
 }
